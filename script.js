@@ -17,7 +17,7 @@ gsap.from("#sub-heading", {
 });
 
 // ===== Chat Bubble Animations =====
-gsap.from(".chat-bubble.left", {
+gsap.from(".chat-bubble.leftA", {
   x: -50,         // Moves from left to right
   opacity: 0,     // Starts invisible
   duration: 1,    // Duration of 1 second
@@ -26,7 +26,7 @@ gsap.from(".chat-bubble.left", {
   stagger: 1       // Stagger each chat bubble animation by 1 second
 });
 
-gsap.from(".chat-bubble.right", {
+gsap.from(".chat-bubble.rightB", {
   x: 50,          // Moves from right to left
   opacity: 0,     // Starts invisible
   duration: 1,    // Duration of 1 second
